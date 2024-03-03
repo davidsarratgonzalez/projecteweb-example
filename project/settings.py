@@ -124,3 +124,4 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 LOGIN_REDIRECT_URL = "home" # Add this line to redirect the user to the home page after logging in
+LOGOUT_REDIRECT_URL = "home" # Add this line to redirect the user to the home page after logging out
