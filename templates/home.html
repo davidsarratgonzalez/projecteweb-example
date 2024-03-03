@@ -7,5 +7,6 @@
 Hi {{ user.username }}!
 {% else %}
 <p>You are not logged in</p>
+<a href="{% url 'login' %}">Log In</a> <!-- We can now add a link to the login page here -->
 {% endif %}
 {% endblock %}
